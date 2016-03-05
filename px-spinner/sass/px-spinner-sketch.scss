@@ -1,0 +1,85 @@
+/*
+ * Copyright (c) 2014 GE Global Research. All rights reserved.
+ *
+ * The copyright to the computer software herein is the property of
+ * GE Global Research. The software may be used and/or copied only
+ * with the written permission of GE Global Research or in accordance
+ * with the terms and conditions stipulated in the agreement/contract
+ * under which the software has been supplied.
+ */
+
+//
+// Sass for the "sketch" notion of the px-spinner component
+//
+// @author Runn Vermel
+//
+
+/*
+THIS FILE SHOULD CONTAIN ONLY ABSTRACT/'SKETCH' THEME RULES, NOT SPECIFIC TO PREDIX BRANDING
+Predix branding rules go in px-spinner-predix.scss, not in this file.
+*/
+
+
+
+// Generic
+@import "px-normalize-design/_generic.normalize.scss";
+@import "px-box-sizing-design/_generic.box-sizing.scss";
+@import "px-helpers-design/_generic.helpers.scss";
+
+// Base
+@import "px-flexbox-design/_base.flexbox.scss";
+@import "px-viewport-design/_base.viewport.scss";
+
+$inuit-enable-layout--full : true;
+
+@import "px-layout-design/_objects.layout.scss";
+
+// Component
+
+
+.spinner {
+  margin: 60px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid rgba(rgba(209, 208, 217, 1), 1);
+  border-right: 1.1em solid rgba(rgba(209, 208, 217, 1), 1);
+  border-bottom: 1.1em solid rgba(rgba(209, 208, 217, 1), 1);
+  border-left: 1.1em solid #5082c3;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+}
+.spinner,
+.spinner:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+// Trumps
+@import "inuit-clearfix/_trumps.clearfix.scss";
+@import "px-spacing-responsive-design/_trumps.spacing-responsive.scss";
+@import "px-widths-responsive-design/_trumps.widths-responsive.scss";
