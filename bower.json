@@ -1,6 +1,6 @@
 {
   "name": "px-spinner",
-  "version": "0.1.2",
+  "version": "0.2.3",
   "main": [
     "px-spinner.html"
   ],
@@ -14,16 +14,17 @@
     "test"
   ],
   "dependencies": {
-    "polymer": "~1.2.3",
-    "px-theme": "https://github.com/PredixDev/px-theme.git#~0.4.0",
-    "px-layout-design": "https://github.com/PredixDev/px-layout-design.git#~0.3.7",
-    "px-spinner": "0.1.3"
+    "polymer": "~1.4.0",
+    "px-theme": "https://github.com/PredixDev/px-theme.git#~0.7.0",
+    "px-layout-design": "https://github.com/PredixDev/px-layout-design.git#~0.3.7"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#~v1.1.0",
     "px-starter-kit-design": "https://github.com/PredixDev/px-starter-kit-design.git#~0.4.0"
   },
   "resolutions": {
-    "px-spinner": "0.1.3"
+    "polymer": "~1.4.0",
+    "px-theme": "~0.7.0",
+    "px-spinner": "^0.2.3"
   }
 }
