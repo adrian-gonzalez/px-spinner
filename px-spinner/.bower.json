@@ -1,6 +1,6 @@
 {
   "name": "px-spinner",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "main": [
     "px-spinner.html"
   ],
@@ -28,14 +28,18 @@
     "px-tabs": "~0.4.0",
     "ace-widget": "LostInBrittany/ace-widget#~1.0.13",
     "px-api-viewer": "https://github.com/PredixDev/px-api-viewer.git",
-    "px-demo-snippet": "https://github.com/predixdev/px-demo-snippet.git"
+    "px-demo-snippet": "https://github.com/predixdev/px-demo-snippet.git",
+    "px-toggle-design": "^0.2.12",
+    "px-actionable-text-icons-design": "^0.0.3",
+    "px-headings-design": "^0.2.13",
+    "px-code-design": "~0.2.11"
   },
   "homepage": "https://github.com/PredixDev/px-spinner",
-  "_release": "0.3.4",
+  "_release": "0.3.5",
   "_resolution": {
     "type": "version",
-    "tag": "v0.3.4",
-    "commit": "7bbc46717c29daa14088dc19b163170ca9573414"
+    "tag": "v0.3.5",
+    "commit": "c34d1eb4797055962e04f02ece87b9dce4e4c99f"
   },
   "_source": "https://github.com/PredixDev/px-spinner.git",
   "_target": "^0.3.0",
