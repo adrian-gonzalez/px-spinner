@@ -1,5 +1,6 @@
 {
   "name": "px-api-viewer",
+  "version": "0.0.2",
   "main": [
     "px-api-viewer.html"
   ],
@@ -24,11 +25,11 @@
     "px-starter-kit-design": "~0.5.5"
   },
   "homepage": "https://github.com/PredixDev/px-api-viewer",
-  "_release": "eb56f225b5",
+  "_release": "0.0.2",
   "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "eb56f225b55163e4a306a0304df036b9783fceb2"
+    "type": "version",
+    "tag": "v0.0.2",
+    "commit": "b0e70e1fa5e2efd1fee6a2ad0dc148eeac0756a3"
   },
   "_source": "https://github.com/PredixDev/px-api-viewer.git",
   "_target": "*",
