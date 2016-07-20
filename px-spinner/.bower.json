@@ -1,6 +1,6 @@
 {
   "name": "px-spinner",
-  "version": "0.3.0",
+  "version": "0.3.3",
   "main": [
     "px-spinner.html"
   ],
@@ -20,18 +20,24 @@
     "px-layout-design": "https://github.com/PredixDev/px-layout-design.git#~0.3.7"
   },
   "devDependencies": {
-    "iron-component-page": "PolymerElements/iron-component-page#~v1.1.0",
-    "px-starter-kit-design": "https://github.com/PredixDev/px-starter-kit-design.git#~0.4.0"
+    "px-starter-kit-design": "https://github.com/PredixDev/px-starter-kit-design.git#~0.4.0",
+    "px-forms-design": "#~0.3.15",
+    "px-tables-design": "#~0.3.12",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#~1.2.3",
+    "polymer-font-awesome": "~0.1.5",
+    "px-tabs": "~0.4.0",
+    "ace-widget": "LostInBrittany/ace-widget#~1.0.13",
+    "px-api-viewer": "https://github.com/PredixDev/px-api-viewer.git",
+    "px-demo-snippet": "https://github.com/predixdev/px-demo-snippet.git"
   },
   "homepage": "https://github.com/PredixDev/px-spinner",
-  "_release": "0.3.0",
+  "_release": "0.3.3",
   "_resolution": {
     "type": "version",
-    "tag": "v0.3.0",
-    "commit": "418486d9aebf49cffd2ea655ce7a2d07f2178564"
+    "tag": "v0.3.3",
+    "commit": "edbb9d812855034593860d2ed1cc8d45570f8a18"
   },
   "_source": "https://github.com/PredixDev/px-spinner.git",
   "_target": "^0.3.0",
-  "_originalSource": "px-spinner",
-  "_direct": true
+  "_originalSource": "px-spinner"
 }

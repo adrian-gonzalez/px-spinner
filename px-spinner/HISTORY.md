@@ -1,3 +1,15 @@
+v0.3.3
+================
+* removed px-clipboard from bower
+
+v0.3.2
+================
+* updated favicon
+
+v0.3.1
+================
+* added new demo page and made the size dynamic
+
 v0.3.0
 ================
 * Upgrade to Polymer 1.5.0
