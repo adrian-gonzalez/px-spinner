@@ -1,30 +1,31 @@
 {
-  "name": "px-headings-design",
-  "version": "0.2.14",
+  "name": "px-list-inline-design",
+  "version": "0.2.11",
   "authors": [
     "General Electric",
     "Harry Roberts <harry@csswizardry.com>"
   ],
-  "description": "Base heading styles for Predix Experience",
-  "main": "_base.headings.scss",
+  "description": "Styles for displaying a list as a horizontal row",
+  "main": "_objects.list-inline.scss",
   "keywords": [
-    "px",
     "sass",
-    "headings"
+    "px",
+    "inline",
+    "lists"
   ],
   "license": "Apache 2",
-  "homepage": "https://github.com/PredixDev/px-headings-design.git",
+  "homepage": "https://github.com/PredixDev/px-list-inline-design.git",
   "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "OSS_Notice.pdf"
   ],
   "dependencies": {
-    "px-defaults-design": "https://github.com/PredixDev/px-defaults-design.git#~0.2.0",
-    "px-mixins-design": "https://github.com/PredixDev/px-mixins-design.git#~0.2.0"
+    "px-defaults-design": "https://github.com/PredixDev/px-defaults-design.git#~0.2.0"
   },
   "devDependencies": {
     "px-buttons-design": "https://github.com/PredixDev/px-buttons-design.git#~0.4.0",
@@ -32,13 +33,13 @@
     "px-iconography-design": "https://github.com/PredixDev/px-iconography-design.git#~0.2.0",
     "px-starter-kit-design": "https://github.com/PredixDev/px-starter-kit-design.git#~0.4.0"
   },
-  "_release": "0.2.14",
+  "_release": "0.2.11",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.14",
-    "commit": "ea4fd15c19407c6fe4e849ec97162a009a95c804"
+    "tag": "v0.2.11",
+    "commit": "de261cb7aed43c773a53d506cc56f7d099cbf8f7"
   },
-  "_source": "https://github.com/predixDev/px-headings-design.git",
-  "_target": "^0.2.14",
-  "_originalSource": "px-headings-design"
+  "_source": "https://github.com/predixDev/px-list-inline-design.git",
+  "_target": "^0.2.11",
+  "_originalSource": "px-list-inline-design"
 }
