@@ -1,6 +1,6 @@
 {
   "name": "px-spinner",
-  "version": "0.3.11",
+  "version": "0.3.12",
   "main": [
     "px-spinner.html"
   ],
@@ -39,11 +39,11 @@
     "px-list-inline-design": "^0.2.11"
   },
   "homepage": "https://github.com/PredixDev/px-spinner",
-  "_release": "0.3.11",
+  "_release": "0.3.12",
   "_resolution": {
     "type": "version",
-    "tag": "v0.3.11",
-    "commit": "1c674c121684370099a58f6ca75286131c523c92"
+    "tag": "v0.3.12",
+    "commit": "7b422988c3c6e30cbd3b6a3d453ea08587c3ca6f"
   },
   "_source": "https://github.com/PredixDev/px-spinner.git",
   "_target": "^0.3.0",
